@@ -47,12 +47,17 @@ body{
 /*grid containerr section*/
 .grid-container{
     display: flex;
-    width: 800px;
+    width: 500px;
     height:500px;
     box-shadow: 1px 1px 10px 2px #acacac;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 /*footer section*/
 a{
     text-decoration: none;
     color: black;
+}
+.active{
+    background-color: black;
 }
