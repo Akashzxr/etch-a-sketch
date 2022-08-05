@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+/*header section*/
+.header-section{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.header-section div{
+    font-size: 80px;
+    font-weight: bold;
+}
+/*option section*/
+.option-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    gap: 30px;
+}
+.option-section button{
+    background-color: #bbb;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 129px;
+    box-shadow: 3px 5px black;
+    transition: 0.3s ease-in;
+}
+.option-section button:hover{
+    background-color: rgb(230, 224, 224);
+    translate: 1px 3px;
+    box-shadow: 2px 4px 2px black;
+}
+/*grid containerr section*/
+.grid-container{
+    display: flex;
+    width: 800px;
+    height:500px;
+    box-shadow: 1px 1px 10px 2px #acacac;
+}
+/*footer section*/
+a{
+    text-decoration: none;
+    color: black;
+}
